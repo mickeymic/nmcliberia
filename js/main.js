@@ -594,11 +594,23 @@ function initGalleryLightbox() {
       const caption = this.getAttribute('data-caption') || '';
 
       if (lightboxContent) {
-        lightboxContent.innerHTML = `
-          <div style="text-align:center;">
-            <div style="font-size:8rem;">${content}</div>
-            ${caption ? `<p style="color:rgba(255,255,255,0.7);font-size:0.9rem;margin-top:16px;">${escapeHTML(caption)}</p>` : ''}
-          </div>`;
+        const wrapper = document.createElement('div');
+        wrapper.style.textAlign = 'center';
+
+        const emojiDiv = document.createElement('div');
+        emojiDiv.style.fontSize = '8rem';
+        emojiDiv.textContent = content; // textContent prevents XSS
+        wrapper.appendChild(emojiDiv);
+
+        if (caption) {
+          const captionEl = document.createElement('p');
+          captionEl.style.cssText = 'color:rgba(255,255,255,0.7);font-size:0.9rem;margin-top:16px;';
+          captionEl.textContent = caption; // textContent prevents XSS
+          wrapper.appendChild(captionEl);
+        }
+
+        lightboxContent.innerHTML = '';
+        lightboxContent.appendChild(wrapper);
       }
       lightbox.classList.add('active');
       document.body.style.overflow = 'hidden';
@@ -981,7 +993,7 @@ function toggleAudio(btn, src) {
 
   currentAudio = new Audio(src || '');
   if (icon) icon.textContent = '⏸';
-  showToast('Audio playback - Coming soon with actual audio files!', 'success');
+  showToast('Audio playback coming soon — actual audio files will be linked here.', 'warning');
 
   currentAudio.addEventListener('ended', function () {
     if (icon) icon.textContent = '▶';
