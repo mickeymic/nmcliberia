@@ -1,0 +1,161 @@
+{
+  "topHeader": {
+    "welcomeText": "Welcome to the National Muslim Council of Liberia"
+  },
+  "mainHeader": {
+    "logoText": "NMCL",
+    "navigation": [
+      { "label": "Home", "link": "index.html" },
+      { "label": "About", "link": "#about" },
+      { "label": "Leadership", "link": "#leadership" },
+      { "label": "Publications", "link": "#publications" },
+      { "label": "News", "link": "#news" },
+      { "label": "Hajj Resources", "link": "#hajj" },
+      { "label": "Contact", "link": "#contact" }
+    ]
+  },
+  "newsTicker": [
+    "📢 NMCL Annual Conference begins next week",
+    "🕌 Community outreach program launched",
+    "🎓 New educational initiative announced",
+    "🤝 Interfaith dialogue scheduled for Friday",
+    "📅 Ramadan preparation meeting this Sunday"
+  ],
+  "latestNews": [
+    {
+      "title": "Ramadan 2026 Programs",
+      "content": "Join us for special prayers, community iftars, and educational programs during the holy month.",
+      "date": "April 2026",
+      "image": "img/slider/slide1.jpg"
+    },
+    {
+      "title": "Youth Leadership Summit",
+      "content": "Empowering young Muslim leaders through workshops and mentorship programs.",
+      "date": "May 2026"
+    },
+    {
+      "title": "Community Health Initiative",
+      "content": "Free medical camp and health awareness program for underserved communities.",
+      "date": "June 2026"
+    }
+  ],
+  "announcements": [
+    {
+      "title": "Public Service Announcement - General Assembly 2026",
+      "text": "Important notice for all members and stakeholders regarding the upcoming General Assembly 2026. Please read and download the official announcement document.",
+      "date": "15 Apr 2026",
+      "badge": "Urgent",
+      "readUrl": "documents/PUBLIC%20SERVICE%20ANNOUNCEMENT%20GENERAL%20ASSEMBLY%202026.fodt",
+      "downloadUrl": "documents/PUBLIC%20SERVICE%20ANNOUNCEMENT%20GENERAL%20ASSEMBLY%202026.fodt"
+    },
+    {
+      "title": "Executive Meeting Notice",
+      "text": "Quarterly executive council meeting holds this Friday at NMCL headquarters.",
+      "date": "15 Apr 2026",
+      "badge": "New"
+    },
+    {
+      "title": "Hajj Registration Deadline",
+      "text": "Final submission date for Hajj documents is approaching. Complete all forms early.",
+      "date": "22 Apr 2026",
+      "badge": "Urgent"
+    },
+    {
+      "title": "Community Outreach Volunteers",
+      "text": "Volunteers are needed for this month's medical and education outreach.",
+      "date": "28 Apr 2026"
+    }
+  ],
+  "heroSlides": [
+    {
+      "title": "Annual General Assembly: Uniting Voices, Driving Progress",
+      "description": "Join us as we review progress, set new goals, and strengthen our collective commitment to growth and excellence.",
+      "image": "img/general-assembly.jpg",
+      "buttonText": "Find Out More",
+      "buttonLink": "#general-assembly"
+    },
+    {
+      "title": "Eid al-Fitr Celebration",
+      "description": "Celebrating the end of Ramadan with joyous festivities and charitable giving.",
+      "image": "img/slider/slide2.jpg",
+      "buttonText": "Find Out More",
+      "buttonLink": "#eid"
+    },
+    {
+      "title": "Islamic Education Initiative",
+      "description": "Empowering our youth through comprehensive Islamic education programs.",
+      "image": "img/slider/slide3.jpg",
+      "buttonText": "Find Out More",
+      "buttonLink": "#education"
+    },
+    {
+      "title": "Community Outreach Programs",
+      "description": "Serving the Liberian community through various social welfare initiatives.",
+      "image": "img/slider/slide4.jpg",
+      "buttonText": "Find Out More",
+      "buttonLink": "#outreach"
+    },
+    {
+      "title": "Interfaith Dialogue Conference",
+      "description": "Promoting peace and understanding through constructive interfaith discussions.",
+      "image": "img/slider/slide5.jpg",
+      "buttonText": "Find Out More",
+      "buttonLink": "#dialogue"
+    },
+    {
+      "title": "Hajj Preparation 2026",
+      "description": "Comprehensive guidance and support for pilgrims preparing for the Hajj journey.",
+      "image": "img/slider/slide6.jpg",
+      "buttonText": "Find Out More",
+      "buttonLink": "#hajj"
+    },
+    {
+      "title": "Youth Development Programs",
+      "description": "Nurturing the next generation of Muslim leaders through mentorship and training.",
+      "image": "img/slider/slide7.jpg",
+      "buttonText": "Find Out More",
+      "buttonLink": "#youth"
+    },
+    {
+      "title": "Charitable Initiatives",
+      "description": "Extending help to those in need through organized charity and support programs.",
+      "image": "img/slider/slide8.jpg",
+      "buttonText": "Find Out More",
+      "buttonLink": "#charity"
+    },
+    {
+      "title": "Islamic Cultural Events",
+      "description": "Celebrating Islamic heritage through cultural programs and community gatherings.",
+      "image": "img/slider/slide9.jpg",
+      "buttonText": "Find Out More",
+      "buttonLink": "#culture"
+    },
+    {
+      "title": "Community Health Services",
+      "description": "Providing healthcare support and medical assistance to community members.",
+      "image": "img/slider/slide10.jpg",
+      "buttonText": "Find Out More",
+      "buttonLink": "#health"
+    }
+  ],
+  "about": {
+    "title": "About NMCL",
+    "content": "The National Muslim Council of Liberia (NMCL) is the premier organization representing Muslim communities across Liberia. Established to unite, serve, and advance the interests of Muslims in our nation, we work tirelessly to promote Islamic values, education, and community development."
+  },
+  "mission": {
+    "title": "Our Mission",
+    "content": "To unite Muslim communities in Liberia, promote Islamic education and values, provide social welfare services, foster interfaith dialogue, and advocate for the rights and interests of Muslims in national development."
+  },
+  "vision": {
+    "title": "Our Vision",
+    "content": "A thriving Muslim community contributing positively to Liberia's national development while upholding Islamic principles of peace, justice, and compassion for all humanity."
+  },
+  "contact": {
+    "address": "Monrovia, Liberia",
+    "phone": "+231 88 000 0000",
+    "email": "info@nmcl.org"
+  },
+  "footer": {
+    "text": "© 2026 National Muslim Council of Liberia. All rights reserved."
+  }
+}

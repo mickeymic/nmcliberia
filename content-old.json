@@ -1,0 +1,111 @@
+{
+  "siteTitle": "National Muslim Council of Liberia",
+  "welcomeMessage": "Welcome to the National Muslim Council of Liberia",
+  "heroSlides": [
+    {
+      "id": 1,
+      "image": "img/slider/slide1.jpg",
+      "title": "Ramadan 2026: A Month of Reflection",
+      "description": "Join us as we observe the holy month of Ramadan with prayer, fasting, and community service."
+    },
+    {
+      "id": 2,
+      "image": "thumb2.jpg",
+      "title": "Eid al-Fitr Celebration",
+      "description": "Celebrating the end of Ramadan with joyous festivities and charitable giving."
+    },
+    {
+      "id": 3,
+      "image": "thumb3.jpg",
+      "title": "Islamic Education Initiative",
+      "description": "Empowering our youth through comprehensive Islamic education programs."
+    },
+    {
+      "id": 4,
+      "image": "thumb4.jpg",
+      "title": "Community Outreach Programs",
+      "description": "Serving the Liberian community through various social welfare initiatives."
+    },
+    {
+      "id": 5,
+      "image": "thumb5.jpg",
+      "title": "Interfaith Dialogue Conference",
+      "description": "Promoting peace and understanding through constructive interfaith discussions."
+    },
+    {
+      "id": 6,
+      "image": "thumb6.jpg",
+      "title": "Hajj Pilgrimage Preparation",
+      "description": "Guiding and supporting pilgrims on their spiritual journey to Mecca."
+    },
+    {
+      "id": 7,
+      "image": "thumb7.jpg",
+      "title": "Youth Leadership Development",
+      "description": "Nurturing the next generation of Muslim leaders in Liberia."
+    },
+    {
+      "id": 8,
+      "image": "thumb8.jpg",
+      "title": "Women's Empowerment Program",
+      "description": "Supporting Muslim women through education, entrepreneurship, and leadership training."
+    },
+    {
+      "id": 9,
+      "image": "thumb9.jpg",
+      "title": "Healthcare Initiative",
+      "description": "Providing medical assistance and health education to underserved communities."
+    },
+    {
+      "id": 10,
+      "image": "thumb10.jpg",
+      "title": "Cultural Heritage Preservation",
+      "description": "Celebrating and preserving Islamic culture and traditions in Liberia."
+    }
+  ],
+  "newsTicker": [
+    "NMCL announces annual Ramadan Iftar gatherings across Liberia",
+    "Registration now open for Islamic Summer School 2026",
+    "Joint interfaith peace summit scheduled for next month",
+    "New mosque construction project breaks ground in Buchanan",
+    "Scholarship applications being accepted for Muslim students",
+    "Community food distribution program serves over 500 families"
+  ],
+  "mainContent": {
+    "about": {
+      "title": "About NMCL",
+      "content": "The National Muslim Council of Liberia (NMCL) is the unified voice of Muslims in Liberia, representing the interests of the Muslim community and promoting Islamic values, education, and social welfare throughout the country."
+    },
+    "mission": "To unite, serve, and advocate for the Muslim community of Liberia while promoting peace, education, and social harmony.",
+    "vision": "A thriving Muslim community contributing positively to Liberia's national development and upholding Islamic principles."
+  },
+  "navigation": [
+    {
+      "name": "Home",
+      "link": "#home"
+    },
+    {
+      "name": "About",
+      "link": "#about"
+    },
+    {
+      "name": "Leadership",
+      "link": "#leadership"
+    },
+    {
+      "name": "News",
+      "link": "#news"
+    },
+    {
+      "name": "Hajj Resources",
+      "link": "#hajj"
+    },
+    {
+      "name": "Contact",
+      "link": "#contact"
+    }
+  ],
+  "footer": {
+    "text": "© 2026 National Muslim Council of Liberia. All rights reserved."
+  }
+}

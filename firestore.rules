@@ -1,0 +1,37 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    function isSignedIn() {
+      return request.auth != null;
+    }
+
+    function isOwner(uid) {
+      return isSignedIn() && request.auth.uid == uid;
+    }
+
+    match /members/{memberId} {
+      allow read: if isOwner(memberId);
+
+      allow create: if isOwner(memberId)
+        && request.resource.data.uid == request.auth.uid
+        && request.resource.data.fullName is string
+        && request.resource.data.email is string
+        && request.resource.data.joinDate is timestamp
+        && request.resource.data.membershipID is string
+        && request.resource.data.membershipID.matches('^NMC-[0-9]{6}$');
+
+      allow update: if isOwner(memberId)
+        && request.resource.data.uid == resource.data.uid
+        && request.resource.data.email == resource.data.email
+        && request.resource.data.membershipID == resource.data.membershipID
+        && request.resource.data.joinDate == resource.data.joinDate
+        && request.resource.data.fullName is string;
+
+      allow delete: if false;
+    }
+
+    match /{document=**} {
+      allow read, write: if false;
+    }
+  }
+}
