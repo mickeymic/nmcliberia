@@ -1,0 +1,19 @@
+{
+  "name": "nmcliberia",
+  "version": "1.0.0",
+  "description": "A modern, responsive static website for the National Muslim Council of Liberia built with HTML, CSS, and vanilla JavaScript.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "firebase:login": "npx firebase-tools login",
+    "firebase:deploy:rules": "npx firebase-tools deploy --only firestore:rules",
+    "firebase:deploy:indexes": "npx firebase-tools deploy --only firestore:indexes"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "firebase": "^12.12.1"
+  }
+}
