@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600">
+  <defs>
+    <pattern id="islamic-pattern" x="0" y="0" width="80" height="80" patternUnits="userSpaceOnUse">
+      <!-- Islamic geometric 8-point star pattern -->
+      <polygon points="40,5 47,20 62,14 56,29 71,36 56,43 62,58 47,52 40,67 33,52 18,58 24,43 9,36 24,29 18,14 33,20" 
+               fill="none" stroke="rgba(201,162,39,0.15)" stroke-width="0.8"/>
+      <polygon points="40,15 44,25 54,22 51,32 61,36 51,40 54,50 44,47 40,57 36,47 26,50 29,40 19,36 29,32 26,22 36,25" 
+               fill="none" stroke="rgba(255,255,255,0.06)" stroke-width="0.5"/>
+    </pattern>
+    <linearGradient id="bg-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a6b3c;stop-opacity:1"/>
+      <stop offset="60%" style="stop-color:#0f2d1a;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#2d9b57;stop-opacity:0.8"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="600" fill="url(#bg-gradient)"/>
+  <rect width="1200" height="600" fill="url(#islamic-pattern)"/>
+  <!-- Mosque silhouette -->
+  <g fill="rgba(255,255,255,0.04)">
+    <rect x="900" y="300" width="200" height="300"/>
+    <ellipse cx="1000" cy="300" rx="100" ry="80"/>
+    <rect x="960" y="220" width="20" height="100"/>
+    <rect x="980" y="200" width="20" height="120"/>
+    <rect x="1000" y="220" width="20" height="100"/>
+    <polygon points="970,200 990,160 1010,200"/>
+    <polygon points="990,180 1000,155 1010,180"/>
+  </g>
+  <!-- Crescent and star -->
+  <g transform="translate(1100,80)" opacity="0.15">
+    <path d="M0,-50 A50,50 0 1,1 35,-35 A35,35 0 1,0 0,-50 Z" fill="#c9a227"/>
+    <polygon points="50,-20 56,-10 68,-10 59,-3 63,8 50,1 37,8 41,-3 32,-10 44,-10" fill="#c9a227"/>
+  </g>
+</svg>

@@ -1,0 +1,1576 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="description" content="Official website of the National Muslim Council of Liberia – uniting the Muslim community through faith, service, and education."/>
+  <meta name="keywords" content="National Muslim Council Liberia, NMC Liberia, Islam Liberia, Muslim Liberia, Monrovia mosque"/>
+  <meta name="author" content="Legacy Brain – lbpacademy.net"/>
+  <meta property="og:title" content="National Muslim Council of Liberia"/>
+  <meta property="og:description" content="Official digital platform of the National Muslim Council of Liberia."/>
+  <meta property="og:type" content="website"/>
+  <meta name="theme-color" content="#1a6b3c"/>
+
+  <title>National Muslim Council of Liberia | Official Website</title>
+
+  <!-- Preconnect for performance -->
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet"/>
+
+  <!-- Favicon placeholder (using SVG inline) -->
+  <link rel="icon" href="images/logo.svg" type="image/svg+xml"/>
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+
+<!-- ================================================================
+     SEARCH OVERLAY
+     ================================================================ -->
+<div id="search-overlay" class="search-overlay" role="search" aria-label="Site search" aria-hidden="true">
+  <button id="search-close" class="search-close" aria-label="Close search">✕</button>
+  <div class="search-overlay-inner">
+    <h3>Search NMC Liberia</h3>
+    <form class="search-form" id="search-form" role="search">
+      <input type="search" id="search-input" class="search-input"
+             placeholder="Search news, resources, announcements…"
+             aria-label="Search" autocomplete="off"/>
+      <button type="submit" class="search-submit" aria-label="Submit search">Search</button>
+    </form>
+    <div id="search-results" aria-live="polite" aria-label="Search results"></div>
+  </div>
+</div>
+
+<!-- ================================================================
+     MOBILE NAVIGATION OVERLAY
+     ================================================================ -->
+<div id="mobile-nav" class="mobile-nav" role="dialog" aria-modal="true" aria-label="Navigation menu">
+  <div class="mobile-nav-inner">
+    <div class="mobile-nav-header">
+      <a href="#" class="logo" aria-label="NMC Liberia Home">
+        <img src="images/logo.svg" alt="NMC Liberia Logo" width="44" height="44" loading="lazy"/>
+        <span class="logo-text">
+          <span class="name">NMC Liberia</span>
+        </span>
+      </a>
+      <button id="mobile-nav-close" class="mobile-nav-close" aria-label="Close menu">✕</button>
+    </div>
+    <nav class="mobile-nav-links" aria-label="Mobile navigation">
+      <a href="#hero">Home</a>
+      <a href="#about">About</a>
+      <a href="#leadership">Leadership</a>
+      <a href="#news">News</a>
+      <a href="#events">Events</a>
+      <a href="#prayer-times">Prayer Times</a>
+      <a href="#media">Media</a>
+      <a href="#resources">Resources</a>
+      <a href="#membership">Membership</a>
+      <a href="#donations">Donate</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </div>
+</div>
+
+<!-- ================================================================
+     HEADER
+     ================================================================ -->
+<header id="header" role="banner">
+  <!-- Top bar -->
+  <div class="header-top" aria-label="Contact information">
+    <div class="container">
+      <span class="bismillah" lang="ar" dir="rtl">بِسْمِ اللهِ الرَّحْمَنِ الرَّحِيمِ</span>
+      <div style="display:flex;gap:20px;align-items:center;">
+        <a href="tel:+2310000000" aria-label="Phone number">📞 +231 000 000 000</a>
+        <a href="mailto:info@nmcliberia.org" aria-label="Email address">✉ info@nmcliberia.org</a>
+      </div>
+    </div>
+  </div>
+  <!-- Main header -->
+  <div class="header-main">
+    <div class="container">
+      <a href="#hero" class="logo" aria-label="National Muslim Council of Liberia - Home">
+        <img src="images/logo.svg" alt="NMC Liberia Logo" width="60" height="60"/>
+        <div class="logo-text">
+          <span class="name">National Muslim Council</span>
+          <span class="tagline">of Liberia — Est. 1971</span>
+        </div>
+      </a>
+
+      <!-- Desktop Navigation -->
+      <nav class="nav-menu" aria-label="Main navigation">
+        <a href="#hero">Home</a>
+        <a href="#about">About</a>
+        <a href="#leadership">Leadership</a>
+        <a href="#news">News</a>
+        <a href="#events">Events</a>
+        <a href="#prayer-times">Prayer Times</a>
+        <a href="#media">Media</a>
+        <a href="#resources">Resources</a>
+        <a href="#membership">Membership</a>
+        <a href="#donations">Donate</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <!-- Nav Actions -->
+      <div class="nav-actions">
+        <button id="search-btn" class="search-btn" aria-label="Open search" title="Search (Ctrl+K)">
+          <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true">
+            <circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/>
+          </svg>
+        </button>
+        <button id="hamburger" class="hamburger" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-nav">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </div>
+</header>
+
+<!-- ================================================================
+     HERO SECTION
+     ================================================================ -->
+<section id="hero" aria-label="Hero">
+  <div class="hero-bg" role="img" aria-label="Islamic geometric pattern background"></div>
+  <div class="hero-pattern"></div>
+  <div class="container">
+    <div class="hero-content">
+      <span class="hero-bismillah" lang="ar" dir="rtl">بسم الله الرحمن الرحيم</span>
+      <span class="hero-label">Official Website</span>
+      <h1>
+        National Muslim Council<br/>
+        <span>of Liberia</span>
+      </h1>
+      <p>
+        Uniting Liberia's Muslim community through faith, education, and service.
+        Building a stronger Ummah — one heart, one nation, one purpose.
+      </p>
+      <div class="hero-actions">
+        <a href="#about" class="btn btn-primary">
+          Discover Our Mission
+          <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+        </a>
+        <a href="#membership" class="btn btn-outline">Become a Member</a>
+      </div>
+
+      <!-- Stats -->
+      <div class="hero-stats" aria-label="Key statistics">
+        <div class="stat-item">
+          <span class="number" data-target="50" data-suffix="+">50+</span>
+          <span class="label">Years of Service</span>
+        </div>
+        <div class="stat-item">
+          <span class="number" data-target="15" data-suffix="">15</span>
+          <span class="label">Counties Served</span>
+        </div>
+        <div class="stat-item">
+          <span class="number" data-target="500" data-suffix="+">500+</span>
+          <span class="label">Member Mosques</span>
+        </div>
+        <div class="stat-item">
+          <span class="number" data-target="1200000" data-suffix="+">1.2M+</span>
+          <span class="label">Muslims Represented</span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <a href="#about" class="hero-scroll" aria-label="Scroll down">
+    <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 5v14M5 12l7 7 7-7"/></svg>
+    <span>Scroll</span>
+  </a>
+</section>
+
+<!-- ================================================================
+     PRAYER TIMES WIDGET BAR
+     ================================================================ -->
+<div class="prayer-widget" aria-label="Today's prayer times" role="complementary">
+  <div class="container">
+    <div class="prayer-widget-title">
+      <span>🕌</span>
+      <span>Prayer Times — Monrovia</span>
+    </div>
+    <div class="prayer-times-list" id="prayer-widget-list" aria-live="polite">
+      <!-- Populated by JavaScript -->
+      <div class="prayer-time-item"><span class="prayer-name">Loading…</span></div>
+    </div>
+    <div class="prayer-countdown" id="prayer-countdown" aria-live="polite">
+      <!-- Populated by JavaScript -->
+    </div>
+  </div>
+</div>
+
+<!-- ================================================================
+     ABOUT SECTION
+     ================================================================ -->
+<section id="about" class="section-padding" aria-labelledby="about-title">
+  <div class="container">
+    <div class="about-grid">
+      <!-- Image -->
+      <div class="about-image-wrap reveal-left">
+        <div style="
+          width:100%;
+          aspect-ratio:4/3;
+          border-radius:20px;
+          background:linear-gradient(135deg,#1a6b3c 0%,#2d9b57 50%,#c9a227 100%);
+          display:flex;
+          align-items:center;
+          justify-content:center;
+          flex-direction:column;
+          gap:16px;
+          color:white;
+          box-shadow:0 8px 32px rgba(0,0,0,0.15);"
+          role="img"
+          aria-label="NMC Liberia Council building">
+          <span style="font-size:5rem;">🕌</span>
+          <span style="font-family:Georgia,serif;font-size:1.2rem;font-weight:700;text-align:center;padding:0 20px;">National Muslim Council of Liberia</span>
+          <span style="font-size:0.9rem;opacity:0.85;">Est. 1971 · Monrovia, Liberia</span>
+        </div>
+        <div class="about-image-badge">
+          <span class="year">1971</span>
+          <span class="text">Established</span>
+        </div>
+      </div>
+
+      <!-- Text -->
+      <div class="about-text reveal-right">
+        <div class="section-header">
+          <h2 class="section-title" id="about-title">About NMC Liberia</h2>
+          <div class="divider"></div>
+          <p class="section-subtitle">Serving Liberia's Muslim community with dedication since 1971</p>
+        </div>
+
+        <p>
+          The <strong>National Muslim Council of Liberia (NMC)</strong> is the foremost Islamic organization representing
+          the Muslim community across all fifteen counties of Liberia. Founded in 1971, the Council
+          coordinates Islamic affairs, promotes education, and advocates for the rights and welfare
+          of Muslims in Liberia.
+        </p>
+        <p>
+          Through its departments and county offices, the NMC facilitates religious programs, educational
+          initiatives, social welfare, and interfaith dialogue — fostering peace, unity, and national development
+          rooted in Islamic principles.
+        </p>
+
+        <!-- VMV Tabs -->
+        <div class="vmv-tabs" role="tablist" aria-label="Vision, Mission, and Values">
+          <button class="vmv-tab active" data-tab="vision" role="tab" aria-selected="true" aria-controls="vmv-vision">Vision</button>
+          <button class="vmv-tab" data-tab="mission" role="tab" aria-selected="false" aria-controls="vmv-mission">Mission</button>
+          <button class="vmv-tab" data-tab="values" role="tab" aria-selected="false" aria-controls="vmv-values">Values</button>
+        </div>
+
+        <div id="vmv-vision" class="vmv-panel active" role="tabpanel">
+          <p>To be the unified voice of Islam in Liberia — a spiritually vibrant, intellectually empowered,
+          and socially impactful Muslim community contributing to national peace and development.</p>
+        </div>
+        <div id="vmv-mission" class="vmv-panel" role="tabpanel">
+          <p>To promote the teachings of Islam, protect the rights of Muslims, coordinate religious
+          activities, foster Islamic education, advance social welfare, and strengthen interfaith
+          harmony throughout Liberia.</p>
+        </div>
+        <div id="vmv-values" class="vmv-panel" role="tabpanel">
+          <div class="values-grid">
+            <div class="value-card"><h4>🤝 Unity</h4><p>One Ummah, one purpose across all communities</p></div>
+            <div class="value-card"><h4>📚 Education</h4><p>Advancing Islamic knowledge and literacy</p></div>
+            <div class="value-card"><h4>⚖️ Justice</h4><p>Upholding fairness and human dignity</p></div>
+            <div class="value-card"><h4>🌱 Service</h4><p>Serving our communities with compassion</p></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================================================================
+     LEADERSHIP SECTION
+     ================================================================ -->
+<section id="leadership" class="section-padding" aria-labelledby="leadership-title">
+  <div class="container">
+    <div class="section-header center">
+      <h2 class="section-title" id="leadership-title">Our Leadership</h2>
+      <div class="divider"></div>
+      <p class="section-subtitle">Dedicated servants of Allah guiding the Muslim community of Liberia</p>
+    </div>
+
+    <div class="leadership-grid" aria-label="Leadership team">
+
+      <!-- Leader 1 -->
+      <article class="leader-card reveal" aria-label="Supreme Imam">
+        <div class="leader-img-placeholder" aria-hidden="true">SI</div>
+        <div class="leader-info">
+          <h3>Sheikh Ibrahim Al-Hajj</h3>
+          <p class="position">Supreme Imam</p>
+          <p class="bio">Leading the Muslim community of Liberia with wisdom and devotion for over two decades.</p>
+        </div>
+      </article>
+
+      <!-- Leader 2 -->
+      <article class="leader-card reveal" aria-label="President">
+        <div class="leader-img-placeholder" aria-hidden="true" style="background:linear-gradient(135deg,#c9a227,#a07c10);">P</div>
+        <div class="leader-info">
+          <h3>Alhaji Mousa Kamara</h3>
+          <p class="position">President, NMC Liberia</p>
+          <p class="bio">Steering the Council's strategic direction and national advocacy programs.</p>
+        </div>
+      </article>
+
+      <!-- Leader 3 -->
+      <article class="leader-card reveal" aria-label="Secretary General">
+        <div class="leader-img-placeholder" aria-hidden="true" style="background:linear-gradient(135deg,#2d9b57,#1a6b3c);">SG</div>
+        <div class="leader-info">
+          <h3>Alhaji Seku Koroma</h3>
+          <p class="position">Secretary General</p>
+          <p class="bio">Coordinating day-to-day operations and inter-organizational communications.</p>
+        </div>
+      </article>
+
+      <!-- Leader 4 -->
+      <article class="leader-card reveal" aria-label="Director of Education">
+        <div class="leader-img-placeholder" aria-hidden="true" style="background:linear-gradient(135deg,#1a6b3c,#0f2d1a);">DE</div>
+        <div class="leader-info">
+          <h3>Dr. Fatima Jalloh</h3>
+          <p class="position">Director of Education</p>
+          <p class="bio">Championing Islamic education and scholarship programs across Liberia.</p>
+        </div>
+      </article>
+
+      <!-- Leader 5 -->
+      <article class="leader-card reveal" aria-label="Director of Social Welfare">
+        <div class="leader-img-placeholder" aria-hidden="true" style="background:linear-gradient(135deg,#c9a227,#1a6b3c);">SW</div>
+        <div class="leader-info">
+          <h3>Alhaji Abdul Sesay</h3>
+          <p class="position">Director of Social Welfare</p>
+          <p class="bio">Leading humanitarian and social development programs for Muslim families.</p>
+        </div>
+      </article>
+
+      <!-- Leader 6 -->
+      <article class="leader-card reveal" aria-label="Women's Affairs Director">
+        <div class="leader-img-placeholder" aria-hidden="true" style="background:linear-gradient(135deg,#f5e6a3,#c9a227);">WA</div>
+        <div class="leader-info">
+          <h3>Hajja Aminata Bah</h3>
+          <p class="position">Director of Women's Affairs</p>
+          <p class="bio">Empowering Muslim women and promoting gender equity in the community.</p>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- ================================================================
+     NEWS & ANNOUNCEMENTS SECTION
+     ================================================================ -->
+<section id="news" class="section-padding" aria-labelledby="news-title">
+  <div class="container">
+    <div class="section-header">
+      <h2 class="section-title" id="news-title">Latest News &amp; Announcements</h2>
+      <div class="divider"></div>
+      <p class="section-subtitle">Stay informed with the latest from NMC Liberia</p>
+    </div>
+
+    <div class="news-layout">
+      <!-- News column -->
+      <div class="news-col">
+        <!-- Featured news -->
+        <article class="featured-news reveal" aria-label="Featured news article">
+          <div class="featured-news-img" role="img" aria-label="Featured news image">
+            <span aria-hidden="true" style="position:relative;z-index:0;">🕌</span>
+          </div>
+          <div class="featured-news-body">
+            <div class="meta">
+              <span class="badge badge-news">Feature</span>
+              <time datetime="2026-04-20">April 20, 2026</time>
+            </div>
+            <h3>NMC Liberia Launches National Islamic Education Reform Program</h3>
+            <p>The National Muslim Council of Liberia has announced a comprehensive Islamic education reform
+               program targeting over 200 Quranic schools across all 15 counties, improving curriculum
+               and teacher training.</p>
+          </div>
+        </article>
+
+        <!-- Recent news list -->
+        <div class="news-list" aria-label="Recent news">
+          <article class="news-item reveal" aria-label="News: Ramadan Program">
+            <div class="news-item-img" aria-hidden="true">📜</div>
+            <div class="news-item-body">
+              <div class="meta">
+                <span class="badge badge-news">News</span>
+                <time datetime="2026-04-15">April 15, 2026</time>
+              </div>
+              <h4>Ramadan 2026: Full Schedule of NMC Activities Nationwide</h4>
+              <p>The Council has released the complete Ramadan 2026 program, including Tarawih schedules, Iftar programs, and community outreach initiatives.</p>
+            </div>
+          </article>
+
+          <article class="news-item reveal" aria-label="News: Interfaith Dialogue">
+            <div class="news-item-img" aria-hidden="true">🤝</div>
+            <div class="news-item-body">
+              <div class="meta">
+                <span class="badge badge-news">News</span>
+                <time datetime="2026-04-10">April 10, 2026</time>
+              </div>
+              <h4>NMC Participates in National Interfaith Peace Conference</h4>
+              <p>Leadership from NMC Liberia joined religious leaders from across Liberia for the Annual Interfaith Peace Conference in Monrovia.</p>
+            </div>
+          </article>
+
+          <article class="news-item reveal" aria-label="News: Youth Development">
+            <div class="news-item-img" aria-hidden="true">👨‍🎓</div>
+            <div class="news-item-body">
+              <div class="meta">
+                <span class="badge badge-news">News</span>
+                <time datetime="2026-04-05">April 5, 2026</time>
+              </div>
+              <h4>Annual Quran Recitation Competition Finals Held in Monrovia</h4>
+              <p>Young Muslims from all 15 counties competed in the annual national Quran recitation competition, with winners receiving scholarships.</p>
+            </div>
+          </article>
+
+          <article class="news-item reveal" aria-label="News: Zakat Committee">
+            <div class="news-item-img" aria-hidden="true">💰</div>
+            <div class="news-item-body">
+              <div class="meta">
+                <span class="badge badge-news">News</span>
+                <time datetime="2026-03-28">March 28, 2026</time>
+              </div>
+              <h4>NMC Zakat Committee Distributes Aid to 500 Families</h4>
+              <p>The NMC Zakat Committee successfully distributed Zakat al-Fitr to over 500 needy families across Monrovia and surrounding counties.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+
+      <!-- Announcements column -->
+      <aside class="announcements-col" aria-labelledby="announcements-title">
+        <h3 class="col-title" id="announcements-title">
+          📢 Announcements
+        </h3>
+
+        <div class="announcement-card urgent reveal" aria-label="Urgent announcement">
+          <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;">
+            <h4>Security Advisory for Eid Prayers</h4>
+            <span class="badge badge-urgent">Urgent</span>
+          </div>
+          <p>All community members are advised to follow designated entry points and security protocols during the upcoming Eid al-Adha prayers at the National Stadium.</p>
+          <div class="ann-footer">
+            <time datetime="2026-04-25">April 25, 2026</time>
+            <a href="#" style="color:var(--green-dark);font-weight:600;font-size:0.8rem;">Read more →</a>
+          </div>
+        </div>
+
+        <div class="announcement-card reveal" aria-label="Announcement: Leadership Meeting">
+          <h4>Executive Council Meeting — May 3, 2026</h4>
+          <p>All department heads and county representatives are required to attend the quarterly executive council meeting at NMC Headquarters.</p>
+          <div class="ann-footer">
+            <time datetime="2026-04-22">April 22, 2026</time>
+            <a href="#" style="color:var(--green-dark);font-weight:600;font-size:0.8rem;">Read more →</a>
+          </div>
+        </div>
+
+        <div class="announcement-card reveal" aria-label="Announcement: Scholarship Applications">
+          <h4>Islamic Scholarship Applications Open</h4>
+          <p>Applications are now open for the 2026–2027 NMC Islamic Scholarship Program. Eligible students can apply at the NMC office or online.</p>
+          <div class="ann-footer">
+            <time datetime="2026-04-18">April 18, 2026</time>
+            <a href="#" style="color:var(--green-dark);font-weight:600;font-size:0.8rem;">Apply now →</a>
+          </div>
+        </div>
+
+        <div class="announcement-card reveal" aria-label="Announcement: Community Service">
+          <h4>Community Cleanup Initiative — April 30</h4>
+          <p>Join NMC youth volunteers for the monthly community cleanup exercise in central Monrovia. Refreshments will be provided.</p>
+          <div class="ann-footer">
+            <time datetime="2026-04-16">April 16, 2026</time>
+            <a href="#" style="color:var(--green-dark);font-weight:600;font-size:0.8rem;">Join us →</a>
+          </div>
+        </div>
+
+        <div class="announcement-card urgent reveal" aria-label="Urgent announcement: Zakat Deadline">
+          <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;">
+            <h4>Zakat al-Fitr Deadline Reminder</h4>
+            <span class="badge badge-urgent">Urgent</span>
+          </div>
+          <p>All Muslims are reminded that Zakat al-Fitr must be paid before the Eid prayer. The NMC Zakat Committee is accepting payments at all county offices.</p>
+          <div class="ann-footer">
+            <time datetime="2026-04-14">April 14, 2026</time>
+          </div>
+        </div>
+      </aside>
+    </div>
+  </div>
+</section>
+
+<!-- ================================================================
+     EVENTS SECTION
+     ================================================================ -->
+<section id="events" class="section-padding" aria-labelledby="events-title">
+  <div class="container">
+    <div class="section-header center">
+      <h2 class="section-title" id="events-title">Upcoming Events</h2>
+      <div class="divider"></div>
+      <p class="section-subtitle">Join us for these upcoming community programs and celebrations</p>
+    </div>
+
+    <div class="events-grid" aria-label="Upcoming events">
+
+      <article class="event-card reveal" aria-label="Event: Eid al-Adha">
+        <div class="event-date">
+          <span class="day">28</span>
+          <span class="month">Jun</span>
+        </div>
+        <div class="event-body">
+          <span class="badge badge-event" style="margin-bottom:8px;">Religious</span>
+          <h3>Eid al-Adha 2026 — National Prayer</h3>
+          <div class="event-meta">
+            <span>🕐 7:00 AM</span>
+            <span>📍 National Stadium, Monrovia</span>
+          </div>
+          <p>The annual Eid al-Adha prayer led by the Supreme Imam. All Muslims are invited. Sacrificial animal distribution follows.</p>
+        </div>
+      </article>
+
+      <article class="event-card reveal" aria-label="Event: Islamic Education Conference">
+        <div class="event-date" style="background:var(--gold);color:var(--dark);">
+          <span class="day">10</span>
+          <span class="month">May</span>
+        </div>
+        <div class="event-body">
+          <span class="badge badge-news" style="margin-bottom:8px;">Education</span>
+          <h3>National Islamic Education Conference 2026</h3>
+          <div class="event-meta">
+            <span>🕐 9:00 AM</span>
+            <span>📍 Ducor Hotel, Monrovia</span>
+          </div>
+          <p>A two-day conference bringing together Islamic scholars, educators, and community leaders to discuss the future of Islamic education in Liberia.</p>
+        </div>
+      </article>
+
+      <article class="event-card reveal" aria-label="Event: Youth Camp">
+        <div class="event-date" style="background:#2d9b57;">
+          <span class="day">15</span>
+          <span class="month">May</span>
+        </div>
+        <div class="event-body">
+          <span class="badge" style="background:#e0f2fe;color:#0369a1;margin-bottom:8px;">Youth</span>
+          <h3>NMC Youth Leadership Camp 2026</h3>
+          <div class="event-meta">
+            <span>🕐 8:00 AM</span>
+            <span>📍 Islamic Center, Paynesville</span>
+          </div>
+          <p>A 3-day leadership development camp for Muslim youth aged 15–25. Activities include workshops, sports, and spiritual development sessions.</p>
+        </div>
+      </article>
+
+      <article class="event-card reveal" aria-label="Event: Women's Forum">
+        <div class="event-date" style="background:var(--dark);">
+          <span class="day">20</span>
+          <span class="month">May</span>
+        </div>
+        <div class="event-body">
+          <span class="badge" style="background:#fdf2f8;color:#9d174d;margin-bottom:8px;">Women</span>
+          <h3>Muslim Women's Empowerment Forum</h3>
+          <div class="event-meta">
+            <span>🕐 10:00 AM</span>
+            <span>📍 NMC Headquarters, Monrovia</span>
+          </div>
+          <p>An annual forum addressing the role of Muslim women in Liberia's development, featuring speakers, skills workshops, and networking.</p>
+        </div>
+      </article>
+
+      <article class="event-card reveal" aria-label="Event: Hajj Seminar">
+        <div class="event-date" style="background:var(--gold-dark);">
+          <span class="day">01</span>
+          <span class="month">Jun</span>
+        </div>
+        <div class="event-body">
+          <span class="badge badge-event" style="margin-bottom:8px;">Hajj</span>
+          <h3>Hajj 2026 Preparation Seminar</h3>
+          <div class="event-meta">
+            <span>🕐 2:00 PM</span>
+            <span>📍 Central Mosque, Monrovia</span>
+          </div>
+          <p>Mandatory seminar for all registered Hajj pilgrims from Liberia. Covers rituals, travel requirements, health guidelines, and spiritual preparation.</p>
+        </div>
+      </article>
+
+      <article class="event-card reveal" aria-label="Event: Friday Khutbah Series">
+        <div class="event-date" style="background:var(--green-mid);">
+          <span class="day">Every</span>
+          <span class="month">Fri</span>
+        </div>
+        <div class="event-body">
+          <span class="badge badge-news" style="margin-bottom:8px;">Weekly</span>
+          <h3>Friday Khutbah Series — Live &amp; Online</h3>
+          <div class="event-meta">
+            <span>🕐 1:00 PM</span>
+            <span>📍 Central Mosque + Live Stream</span>
+          </div>
+          <p>Weekly Friday Khutbah from the Central Mosque in Monrovia. Available for live viewing at the mosque or online via our YouTube channel.</p>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- ================================================================
+     PRAYER TIMES SECTION
+     ================================================================ -->
+<section id="prayer-times" class="section-padding" aria-labelledby="prayer-title">
+  <div class="container">
+    <div class="prayer-times-grid">
+      <div class="prayer-times-info reveal-left">
+        <h2 id="prayer-title">Daily Prayer Times</h2>
+        <p>
+          All prayer times are calculated for Monrovia, Liberia (6.3°N, 10.8°W) using the
+          Muslim World League method. Times are updated daily.
+        </p>
+        <span class="prayer-location">
+          📍 Monrovia, Liberia — UTC+0
+        </span>
+
+        <div style="margin-top:32px;">
+          <div style="
+            background:rgba(255,255,255,0.08);
+            border-radius:12px;
+            padding:20px;
+            margin-top:16px;">
+            <h3 style="font-size:1rem;color:var(--gold);margin-bottom:12px;">🌙 Hijri Calendar</h3>
+            <p id="hijri-date" style="font-family:var(--font-arabic);font-size:1.1rem;color:rgba(255,255,255,0.9);margin-bottom:4px;" aria-live="polite">Loading…</p>
+            <p id="gregorian-date" style="font-size:0.85rem;color:rgba(255,255,255,0.6);" aria-live="polite">Loading…</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="reveal-right">
+        <div class="prayer-times-table" aria-label="Prayer times table">
+          <div class="prayer-date-display">
+            <p class="hijri" aria-hidden="true">Monrovia Prayer Schedule</p>
+            <p class="gregorian">Calculated daily for accuracy</p>
+          </div>
+          <div id="prayer-rows" aria-live="polite">
+            <!-- Populated by JavaScript -->
+            <div class="prayer-row">
+              <div class="prayer-label">
+                <div class="prayer-icon">⏳</div>
+                <span>Calculating prayer times…</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================================================================
+     MEDIA SECTION
+     ================================================================ -->
+<section id="media" class="section-padding" aria-labelledby="media-title">
+  <div class="container">
+    <div class="section-header center">
+      <h2 class="section-title" id="media-title">Media Center</h2>
+      <div class="divider"></div>
+      <p class="section-subtitle">Audio lectures, videos, and photo gallery from NMC events</p>
+    </div>
+
+    <!-- Media Tabs -->
+    <div class="media-tabs" role="tablist" aria-label="Media categories">
+      <button class="media-tab active" data-tab="audio" role="tab" aria-selected="true" aria-controls="media-audio">🎧 Audio Lectures</button>
+      <button class="media-tab" data-tab="video" role="tab" aria-selected="false" aria-controls="media-video">🎥 Videos</button>
+      <button class="media-tab" data-tab="gallery" role="tab" aria-selected="false" aria-controls="media-gallery">📷 Gallery</button>
+    </div>
+
+    <!-- Audio Panel -->
+    <div id="media-audio" class="media-panel active" role="tabpanel" aria-label="Audio lectures">
+      <div class="audio-grid">
+
+        <div class="audio-card reveal" aria-label="Audio: Importance of Taqwa">
+          <div class="audio-cover" aria-hidden="true">🎙️</div>
+          <div class="audio-info">
+            <h4>The Importance of Taqwa in Daily Life</h4>
+            <p class="speaker">Sheikh Ibrahim Al-Hajj</p>
+            <p class="duration">⏱ 45 min · Friday Khutbah</p>
+          </div>
+          <button class="audio-play" onclick="toggleAudio(this, 'audio/khutbah-taqwa.mp3')" aria-label="Play audio">
+            <span class="play-icon" aria-hidden="true">▶</span>
+          </button>
+        </div>
+
+        <div class="audio-card reveal" aria-label="Audio: Unity of the Ummah">
+          <div class="audio-cover" aria-hidden="true">🎙️</div>
+          <div class="audio-info">
+            <h4>Unity of the Ummah — Lessons from the Seerah</h4>
+            <p class="speaker">Sheikh Musa Kamara</p>
+            <p class="duration">⏱ 38 min · Special Lecture</p>
+          </div>
+          <button class="audio-play" onclick="toggleAudio(this, 'audio/unity-ummah.mp3')" aria-label="Play audio">
+            <span class="play-icon" aria-hidden="true">▶</span>
+          </button>
+        </div>
+
+        <div class="audio-card reveal" aria-label="Audio: Rights of Neighbours">
+          <div class="audio-cover" aria-hidden="true">🎙️</div>
+          <div class="audio-info">
+            <h4>Rights of Neighbours in Islam</h4>
+            <p class="speaker">Sheikh Abdul Rahman</p>
+            <p class="duration">⏱ 32 min · Weekly Lecture</p>
+          </div>
+          <button class="audio-play" onclick="toggleAudio(this, 'audio/rights-neighbours.mp3')" aria-label="Play audio">
+            <span class="play-icon" aria-hidden="true">▶</span>
+          </button>
+        </div>
+
+        <div class="audio-card reveal" aria-label="Audio: Ramadan Preparation">
+          <div class="audio-cover" aria-hidden="true">🎙️</div>
+          <div class="audio-info">
+            <h4>Preparing Your Heart for Ramadan</h4>
+            <p class="speaker">Dr. Fatima Jalloh</p>
+            <p class="duration">⏱ 29 min · Special Program</p>
+          </div>
+          <button class="audio-play" onclick="toggleAudio(this, 'audio/ramadan-prep.mp3')" aria-label="Play audio">
+            <span class="play-icon" aria-hidden="true">▶</span>
+          </button>
+        </div>
+
+        <div class="audio-card reveal" aria-label="Audio: Islamic Parenting">
+          <div class="audio-cover" aria-hidden="true">🎙️</div>
+          <div class="audio-info">
+            <h4>Islamic Parenting in the Modern World</h4>
+            <p class="speaker">Hajja Aminata Bah</p>
+            <p class="duration">⏱ 41 min · Women's Forum</p>
+          </div>
+          <button class="audio-play" onclick="toggleAudio(this, 'audio/parenting.mp3')" aria-label="Play audio">
+            <span class="play-icon" aria-hidden="true">▶</span>
+          </button>
+        </div>
+
+        <div class="audio-card reveal" aria-label="Audio: Social Justice in Islam">
+          <div class="audio-cover" aria-hidden="true">🎙️</div>
+          <div class="audio-info">
+            <h4>Social Justice and Equality in Islam</h4>
+            <p class="speaker">Sheikh Ibrahim Al-Hajj</p>
+            <p class="duration">⏱ 52 min · Annual Conference</p>
+          </div>
+          <button class="audio-play" onclick="toggleAudio(this, 'audio/social-justice.mp3')" aria-label="Play audio">
+            <span class="play-icon" aria-hidden="true">▶</span>
+          </button>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Video Panel -->
+    <div id="media-video" class="media-panel" role="tabpanel" aria-label="Videos">
+      <div class="video-grid">
+
+        <article class="video-card reveal" aria-label="Video: Eid Celebration 2025">
+          <div class="video-thumb" role="img" aria-label="Eid Celebration video thumbnail">
+            <div class="video-play-icon" aria-hidden="true">▶</div>
+            <span class="video-duration">15:24</span>
+          </div>
+          <div class="video-info">
+            <h4>Eid al-Fitr 2025 — National Celebration Highlights</h4>
+            <p class="meta">📅 April 2025 · 5.2k views</p>
+          </div>
+        </article>
+
+        <article class="video-card reveal" aria-label="Video: Quran Competition">
+          <div class="video-thumb" style="background:linear-gradient(135deg,#c9a227,#a07c10);" role="img" aria-label="Quran Competition thumbnail">
+            <div class="video-play-icon" aria-hidden="true">▶</div>
+            <span class="video-duration">28:10</span>
+          </div>
+          <div class="video-info">
+            <h4>National Quran Recitation Competition 2026 Finals</h4>
+            <p class="meta">📅 March 2026 · 3.8k views</p>
+          </div>
+        </article>
+
+        <article class="video-card reveal" aria-label="Video: Education Conference">
+          <div class="video-thumb" style="background:linear-gradient(135deg,#2d9b57,#0f2d1a);" role="img" aria-label="Education Conference thumbnail">
+            <div class="video-play-icon" aria-hidden="true">▶</div>
+            <span class="video-duration">1:02:30</span>
+          </div>
+          <div class="video-info">
+            <h4>Islamic Education Conference 2025 — Opening Ceremony</h4>
+            <p class="meta">📅 May 2025 · 2.1k views</p>
+          </div>
+        </article>
+
+      </div>
+    </div>
+
+    <!-- Gallery Panel -->
+    <div id="media-gallery" class="media-panel" role="tabpanel" aria-label="Photo gallery">
+      <div class="gallery-grid" aria-label="Event photos">
+
+        <div class="gallery-item reveal" data-lightbox="🕌" data-caption="Central Mosque, Monrovia" role="button" tabindex="0" aria-label="View photo: Central Mosque">
+          <span aria-hidden="true">🕌</span>
+          <span class="gallery-overlay-icon" aria-hidden="true">🔍</span>
+        </div>
+        <div class="gallery-item reveal" data-lightbox="🤲" data-caption="Community prayer during Ramadan" role="button" tabindex="0" aria-label="View photo: Community prayer">
+          <span aria-hidden="true">🤲</span>
+          <span class="gallery-overlay-icon" aria-hidden="true">🔍</span>
+        </div>
+        <div class="gallery-item reveal" data-lightbox="🎓" data-caption="Annual scholarship awards ceremony" role="button" tabindex="0" aria-label="View photo: Scholarship ceremony">
+          <span aria-hidden="true">🎓</span>
+          <span class="gallery-overlay-icon" aria-hidden="true">🔍</span>
+        </div>
+        <div class="gallery-item reveal" data-lightbox="🌙" data-caption="Eid moon sighting ceremony" role="button" tabindex="0" aria-label="View photo: Moon sighting">
+          <span aria-hidden="true">🌙</span>
+          <span class="gallery-overlay-icon" aria-hidden="true">🔍</span>
+        </div>
+        <div class="gallery-item reveal" data-lightbox="👨‍👩‍👧‍👦" data-caption="Family iftar gathering" role="button" tabindex="0" aria-label="View photo: Iftar gathering">
+          <span aria-hidden="true">👨‍👩‍👧‍👦</span>
+          <span class="gallery-overlay-icon" aria-hidden="true">🔍</span>
+        </div>
+        <div class="gallery-item reveal" data-lightbox="📚" data-caption="Quran school graduation" role="button" tabindex="0" aria-label="View photo: Quran graduation">
+          <span aria-hidden="true">📚</span>
+          <span class="gallery-overlay-icon" aria-hidden="true">🔍</span>
+        </div>
+        <div class="gallery-item reveal" data-lightbox="🤝" data-caption="Interfaith dialogue forum" role="button" tabindex="0" aria-label="View photo: Interfaith forum">
+          <span aria-hidden="true">🤝</span>
+          <span class="gallery-overlay-icon" aria-hidden="true">🔍</span>
+        </div>
+        <div class="gallery-item reveal" data-lightbox="✈️" data-caption="Hajj pilgrims departure ceremony 2025" role="button" tabindex="0" aria-label="View photo: Hajj departure">
+          <span aria-hidden="true">✈️</span>
+          <span class="gallery-overlay-icon" aria-hidden="true">🔍</span>
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ================================================================
+     GALLERY LIGHTBOX
+     ================================================================ -->
+<div id="lightbox" class="lightbox" role="dialog" aria-modal="true" aria-label="Photo lightbox">
+  <button id="lightbox-close" class="lightbox-close" aria-label="Close lightbox">✕</button>
+  <div class="lightbox-content" id="lightbox-content"></div>
+</div>
+
+<!-- ================================================================
+     EDUCATIONAL RESOURCES SECTION
+     ================================================================ -->
+<section id="resources" class="section-padding" aria-labelledby="resources-title">
+  <div class="container">
+    <div class="section-header center">
+      <h2 class="section-title" id="resources-title">Educational Resources</h2>
+      <div class="divider"></div>
+      <p class="section-subtitle">Articles, downloadable resources, and answers to common questions</p>
+    </div>
+
+    <div class="resources-grid">
+
+      <!-- Articles -->
+      <div class="resources-col reveal">
+        <h3>📖 Articles on Islam</h3>
+
+        <div class="article-item">
+          <h4>The Five Pillars of Islam: A Comprehensive Guide</h4>
+          <p class="meta">By Sheikh Ibrahim Al-Hajj · April 2026</p>
+        </div>
+        <div class="article-item">
+          <h4>Understanding Zakat: Your Obligation &amp; Its Impact</h4>
+          <p class="meta">By Dr. Fatima Jalloh · March 2026</p>
+        </div>
+        <div class="article-item">
+          <h4>Islam and Interfaith Harmony in West Africa</h4>
+          <p class="meta">By NMC Research Team · March 2026</p>
+        </div>
+        <div class="article-item">
+          <h4>Raising Muslim Children in a Modern World</h4>
+          <p class="meta">By Hajja Aminata Bah · February 2026</p>
+        </div>
+        <div class="article-item">
+          <h4>The Seerah of the Prophet ﷺ: Lessons for Today</h4>
+          <p class="meta">By Sheikh Musa Kamara · January 2026</p>
+        </div>
+        <div class="article-item">
+          <h4>Islamic Finance Principles for Everyday Life</h4>
+          <p class="meta">By NMC Finance Committee · January 2026</p>
+        </div>
+      </div>
+
+      <!-- Downloadable PDFs -->
+      <div class="resources-col reveal">
+        <h3>📥 Downloadable Resources</h3>
+
+        <div class="pdf-item">
+          <div class="pdf-icon" aria-hidden="true">📄</div>
+          <div class="pdf-info">
+            <h4>Zakat Calculation Guide 2026</h4>
+            <p class="size">PDF · 2.1 MB</p>
+          </div>
+        </div>
+        <div class="pdf-item">
+          <div class="pdf-icon" aria-hidden="true">📄</div>
+          <div class="pdf-info">
+            <h4>Introduction to Quran for Beginners</h4>
+            <p class="size">PDF · 5.4 MB</p>
+          </div>
+        </div>
+        <div class="pdf-item">
+          <div class="pdf-icon" aria-hidden="true">📄</div>
+          <div class="pdf-info">
+            <h4>Hajj &amp; Umrah Complete Guide 2026</h4>
+            <p class="size">PDF · 8.2 MB</p>
+          </div>
+        </div>
+        <div class="pdf-item">
+          <div class="pdf-icon" aria-hidden="true">📄</div>
+          <div class="pdf-info">
+            <h4>Daily Duas &amp; Prayers Booklet</h4>
+            <p class="size">PDF · 3.7 MB</p>
+          </div>
+        </div>
+        <div class="pdf-item">
+          <div class="pdf-icon" aria-hidden="true">📄</div>
+          <div class="pdf-info">
+            <h4>Islamic Parenting Guide</h4>
+            <p class="size">PDF · 4.1 MB</p>
+          </div>
+        </div>
+        <div class="pdf-item">
+          <div class="pdf-icon" aria-hidden="true">📄</div>
+          <div class="pdf-info">
+            <h4>NMC Annual Report 2025</h4>
+            <p class="size">PDF · 6.8 MB</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Q&A -->
+      <div class="resources-col reveal">
+        <h3>❓ Frequently Asked Questions</h3>
+
+        <div class="qa-item" aria-expanded="false">
+          <div class="question" role="button" tabindex="0" aria-label="Question: How do I become a member?">
+            How do I become a member of NMC?
+            <span class="qa-toggle" aria-hidden="true">+</span>
+          </div>
+          <div class="answer">
+            You can register as a member by filling out the online registration form in the Membership section,
+            or visiting our headquarters at NMC Liberia, Broad Street, Monrovia.
+          </div>
+        </div>
+
+        <div class="qa-item" aria-expanded="false">
+          <div class="question" role="button" tabindex="0" aria-label="Question: How are prayer times calculated?">
+            How are prayer times calculated?
+            <span class="qa-toggle" aria-hidden="true">+</span>
+          </div>
+          <div class="answer">
+            Prayer times on this website are calculated using the Muslim World League method for Monrovia, Liberia
+            (coordinates: 6.3°N, 10.8°W). They are recalculated daily for accuracy.
+          </div>
+        </div>
+
+        <div class="qa-item" aria-expanded="false">
+          <div class="question" role="button" tabindex="0" aria-label="Question: How can I donate?">
+            How can I donate to NMC Liberia?
+            <span class="qa-toggle" aria-hidden="true">+</span>
+          </div>
+          <div class="answer">
+            You can donate via the Donations section on this website using mobile money or card payment.
+            You can also donate in person at any NMC office. All donations are transparent and accounted for.
+          </div>
+        </div>
+
+        <div class="qa-item" aria-expanded="false">
+          <div class="question" role="button" tabindex="0" aria-label="Question: How to register for Hajj?">
+            How do I register for Hajj through NMC?
+            <span class="qa-toggle" aria-hidden="true">+</span>
+          </div>
+          <div class="answer">
+            Hajj registration opens annually, typically six months before the Hajj season.
+            Visit our headquarters or contact us via email for the current registration requirements and fees.
+          </div>
+        </div>
+
+        <div class="qa-item" aria-expanded="false">
+          <div class="question" role="button" tabindex="0" aria-label="Question: Where is NMC located?">
+            Where is NMC Liberia headquartered?
+            <span class="qa-toggle" aria-hidden="true">+</span>
+          </div>
+          <div class="answer">
+            The NMC Liberia headquarters is located on Broad Street, Monrovia, Liberia.
+            We have county offices in all 15 counties of Liberia.
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================================================================
+     MEMBERSHIP SECTION
+     ================================================================ -->
+<section id="membership" class="section-padding" aria-labelledby="membership-title">
+  <div class="container">
+    <div class="section-header center">
+      <h2 class="section-title" id="membership-title">Become a Member</h2>
+      <div class="divider"></div>
+      <p class="section-subtitle">Join the NMC Liberia family and be part of our growing community</p>
+    </div>
+
+    <div class="membership-grid">
+      <!-- Info -->
+      <div class="membership-info reveal-left">
+        <h3>Why Join NMC Liberia?</h3>
+        <p>
+          Membership in the National Muslim Council of Liberia connects you to the official
+          representative body of Islam in Liberia. As a member, you gain access to exclusive
+          resources, programs, and a nationwide network of Muslim professionals and community leaders.
+        </p>
+
+        <div class="membership-benefits">
+          <div class="benefit-item">
+            <span class="benefit-icon">🎓</span>
+            <div class="benefit-text">
+              <h4>Scholarship Opportunities</h4>
+              <p>Access to NMC-sponsored scholarships for Islamic and secular education.</p>
+            </div>
+          </div>
+          <div class="benefit-item">
+            <span class="benefit-icon">🤝</span>
+            <div class="benefit-text">
+              <h4>Community Network</h4>
+              <p>Connect with over 1.2 million Muslims across Liberia's 15 counties.</p>
+            </div>
+          </div>
+          <div class="benefit-item">
+            <span class="benefit-icon">📚</span>
+            <div class="benefit-text">
+              <h4>Islamic Resources</h4>
+              <p>Exclusive access to NMC library, digital resources, and learning materials.</p>
+            </div>
+          </div>
+          <div class="benefit-item">
+            <span class="benefit-icon">🏥</span>
+            <div class="benefit-text">
+              <h4>Social Welfare Support</h4>
+              <p>Access to NMC social welfare programs, including medical and financial assistance.</p>
+            </div>
+          </div>
+          <div class="benefit-item">
+            <span class="benefit-icon">🗳️</span>
+            <div class="benefit-text">
+              <h4>Voting Rights</h4>
+              <p>Eligible to vote in NMC elections and participate in governance decisions.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Registration Form -->
+      <div class="reg-form reveal-right" role="form" aria-label="Member registration form">
+        <h3>📋 Member Registration Form</h3>
+        <form id="registration-form" novalidate aria-label="Registration form">
+          <div class="form-row">
+            <div class="form-group">
+              <label for="reg-firstname">First Name <span class="required">*</span></label>
+              <input type="text" id="reg-firstname" name="firstname" class="form-control"
+                     placeholder="Your first name" required autocomplete="given-name"/>
+            </div>
+            <div class="form-group">
+              <label for="reg-lastname">Last Name <span class="required">*</span></label>
+              <input type="text" id="reg-lastname" name="lastname" class="form-control"
+                     placeholder="Your last name" required autocomplete="family-name"/>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="reg-email">Email Address <span class="required">*</span></label>
+            <input type="email" id="reg-email" name="email" class="form-control"
+                   placeholder="your.email@example.com" required autocomplete="email"/>
+          </div>
+
+          <div class="form-group">
+            <label for="reg-phone">Phone Number <span class="required">*</span></label>
+            <input type="tel" id="reg-phone" name="phone" class="form-control"
+                   placeholder="+231 000 000 000" required autocomplete="tel"/>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label for="reg-county">County <span class="required">*</span></label>
+              <select id="reg-county" name="county" class="form-control" required>
+                <option value="">Select county…</option>
+                <option>Montserrado</option>
+                <option>Nimba</option>
+                <option>Lofa</option>
+                <option>Bong</option>
+                <option>Margibi</option>
+                <option>Grand Bassa</option>
+                <option>Grand Cape Mount</option>
+                <option>Bomi</option>
+                <option>Grand Gedeh</option>
+                <option>Grand Kru</option>
+                <option>Maryland</option>
+                <option>Rivercess</option>
+                <option>River Gee</option>
+                <option>Sinoe</option>
+                <option>Gbarpolu</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="reg-type">Membership Type</label>
+              <select id="reg-type" name="membership_type" class="form-control">
+                <option value="individual">Individual</option>
+                <option value="family">Family</option>
+                <option value="mosque">Mosque / Organization</option>
+                <option value="student">Student</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="reg-occupation">Occupation</label>
+            <input type="text" id="reg-occupation" name="occupation" class="form-control"
+                   placeholder="Your occupation or profession"/>
+          </div>
+
+          <div class="form-group">
+            <label for="reg-message">Additional Notes</label>
+            <textarea id="reg-message" name="message" class="form-control"
+                      placeholder="Any additional information you'd like to share…" rows="3"></textarea>
+          </div>
+
+          <div class="form-group" style="display:flex;align-items:flex-start;gap:10px;">
+            <input type="checkbox" id="reg-agree" name="agree" required
+                   style="width:18px;height:18px;margin-top:2px;accent-color:var(--green-dark);"/>
+            <label for="reg-agree" style="font-size:0.88rem;cursor:pointer;">
+              I agree to the <a href="#" id="policy-link" style="color:var(--green-dark);font-weight:600;">Website Policy</a>
+              and consent to my information being stored by NMC Liberia. <span class="required">*</span>
+            </label>
+          </div>
+
+          <button type="submit" class="btn btn-green" style="width:100%;justify-content:center;">
+            Submit Registration
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================================================================
+     DONATIONS SECTION
+     ================================================================ -->
+<section id="donations" class="section-padding" aria-labelledby="donations-title">
+  <div class="container">
+    <div class="section-header center">
+      <h2 class="section-title" id="donations-title">Support Our Work</h2>
+      <div class="divider"></div>
+      <p class="section-subtitle">Your donation helps us serve Liberia's Muslim community</p>
+    </div>
+
+    <div class="donations-grid">
+      <!-- Donation Form -->
+      <div class="donation-form-wrapper reveal-left">
+        <h3>💚 Make a Donation</h3>
+        <form id="donation-form" novalidate aria-label="Donation form">
+
+          <label style="font-size:0.88rem;font-weight:600;color:var(--gray-800);display:block;margin-bottom:10px;">
+            Select Amount (USD)
+          </label>
+          <div class="amount-grid">
+            <button type="button" class="amount-btn" data-amount="10">$10</button>
+            <button type="button" class="amount-btn selected" data-amount="25">$25</button>
+            <button type="button" class="amount-btn" data-amount="50">$50</button>
+            <button type="button" class="amount-btn" data-amount="100">$100</button>
+            <button type="button" class="amount-btn" data-amount="250">$250</button>
+            <button type="button" class="amount-btn" data-amount="500">$500</button>
+          </div>
+
+          <div class="form-group">
+            <label for="custom-amount">Or enter custom amount</label>
+            <input type="number" id="custom-amount" class="form-control"
+                   placeholder="Enter amount in USD" min="1" inputmode="numeric"/>
+          </div>
+
+          <div class="form-group">
+            <label style="font-size:0.88rem;font-weight:600;color:var(--gray-800);display:block;margin-bottom:10px;">
+              Select Donation Purpose
+            </label>
+            <select class="form-control">
+              <option>General Fund</option>
+              <option>Islamic Education</option>
+              <option>Mosque Construction</option>
+              <option>Zakat Fund</option>
+              <option>Social Welfare</option>
+              <option>Youth Programs</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label style="font-size:0.88rem;font-weight:600;color:var(--gray-800);display:block;margin-bottom:10px;">
+              Payment Method
+            </label>
+            <div class="payment-methods">
+              <button type="button" class="payment-method selected" data-method="mobile">📱 Mobile Money</button>
+              <button type="button" class="payment-method" data-method="card">💳 Card</button>
+              <button type="button" class="payment-method" data-method="bank">🏦 Bank Transfer</button>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="donor-name">Your Name (Optional)</label>
+            <input type="text" id="donor-name" class="form-control" placeholder="Anonymous or your name"/>
+          </div>
+
+          <button type="submit" class="btn btn-green" style="width:100%;justify-content:center;">
+            💚 Donate Now
+          </button>
+
+          <p style="text-align:center;font-size:0.78rem;color:var(--text-muted);margin-top:12px;">
+            🔒 Secure payment processing · All donations are tax-deductible
+          </p>
+        </form>
+      </div>
+
+      <!-- Transparency -->
+      <div class="transparency-section reveal-right">
+        <h3>🌍 Where Your Donation Goes</h3>
+        <p style="color:var(--text-muted);font-size:0.9rem;line-height:1.7;margin-bottom:24px;">
+          We are committed to full transparency. Every donation is accounted for and directed
+          to the programs that need it most. Here is how we use your generous contributions:
+        </p>
+
+        <div class="transparency-item">
+          <div class="category">📚 Islamic Education</div>
+          <div class="percentage">35%</div>
+        </div>
+        <div class="progress-bar"><div class="progress-fill" data-width="35" style="width:0%"></div></div>
+
+        <div class="transparency-item" style="margin-top:16px;">
+          <div class="category">🏥 Social Welfare</div>
+          <div class="percentage">25%</div>
+        </div>
+        <div class="progress-bar"><div class="progress-fill" data-width="25" style="width:0%"></div></div>
+
+        <div class="transparency-item" style="margin-top:16px;">
+          <div class="category">🕌 Mosque Support</div>
+          <div class="percentage">20%</div>
+        </div>
+        <div class="progress-bar"><div class="progress-fill" data-width="20" style="width:0%"></div></div>
+
+        <div class="transparency-item" style="margin-top:16px;">
+          <div class="category">👨‍👦 Youth Programs</div>
+          <div class="percentage">12%</div>
+        </div>
+        <div class="progress-bar"><div class="progress-fill" data-width="12" style="width:0%"></div></div>
+
+        <div class="transparency-item" style="margin-top:16px;">
+          <div class="category">⚙️ Administration</div>
+          <div class="percentage">8%</div>
+        </div>
+        <div class="progress-bar"><div class="progress-fill" data-width="8" style="width:0%"></div></div>
+
+        <div style="
+          margin-top:32px;
+          padding:20px;
+          background:var(--green-light);
+          border-radius:var(--radius-md);
+          border-left:4px solid var(--green-dark);">
+          <h4 style="color:var(--green-dark);margin-bottom:8px;">💝 Impact in Numbers (2025)</h4>
+          <ul style="list-style:none;display:flex;flex-direction:column;gap:6px;">
+            <li style="font-size:0.88rem;color:var(--text-muted);">✓ 200+ Quranic schools supported</li>
+            <li style="font-size:0.88rem;color:var(--text-muted);">✓ 500+ families received Zakat aid</li>
+            <li style="font-size:0.88rem;color:var(--text-muted);">✓ 50 scholarships awarded</li>
+            <li style="font-size:0.88rem;color:var(--text-muted);">✓ 15 mosques renovated</li>
+            <li style="font-size:0.88rem;color:var(--text-muted);">✓ 1,000+ youth trained</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================================================================
+     CONTACT SECTION
+     ================================================================ -->
+<section id="contact" class="section-padding" aria-labelledby="contact-title">
+  <div class="container">
+    <div class="section-header center">
+      <h2 class="section-title" id="contact-title">Contact Us</h2>
+      <div class="divider"></div>
+      <p class="section-subtitle">We'd love to hear from you. Reach out to us anytime.</p>
+    </div>
+
+    <div class="contact-grid">
+      <!-- Info -->
+      <div class="contact-info reveal-left">
+        <h3>Get in Touch</h3>
+        <p>
+          Our team is ready to assist you. Whether you have questions about membership,
+          events, donations, or Islamic guidance, we are here to help.
+        </p>
+
+        <div class="contact-items">
+          <div class="contact-item">
+            <div class="contact-icon" aria-hidden="true">📍</div>
+            <div class="contact-detail">
+              <h4>Address</h4>
+              <p>National Muslim Council of Liberia<br/>Broad Street, Monrovia, Liberia</p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon" aria-hidden="true">📞</div>
+            <div class="contact-detail">
+              <h4>Phone</h4>
+              <p><a href="tel:+2310000000" style="color:var(--green-dark);">+231 000 000 000</a></p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon" aria-hidden="true">✉️</div>
+            <div class="contact-detail">
+              <h4>Email</h4>
+              <p>
+                <a href="mailto:info@nmcliberia.org" style="color:var(--green-dark);">info@nmcliberia.org</a><br/>
+                <a href="mailto:secretary@nmcliberia.org" style="color:var(--green-dark);">secretary@nmcliberia.org</a>
+              </p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon" aria-hidden="true">🕐</div>
+            <div class="contact-detail">
+              <h4>Office Hours</h4>
+              <p>Monday – Friday: 8:00 AM – 5:00 PM<br/>Saturday: 9:00 AM – 1:00 PM</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Map placeholder -->
+        <div class="contact-map" role="img" aria-label="Map showing NMC Liberia location in Monrovia">
+          <span style="font-size:3rem;">🗺️</span>
+          <span><strong>NMC Liberia Headquarters</strong><br/>Broad Street, Monrovia, Liberia</span>
+        </div>
+      </div>
+
+      <!-- Contact Form -->
+      <div class="contact-form reveal-right" role="form">
+        <h3>📬 Send Us a Message</h3>
+        <form id="contact-form" novalidate aria-label="Contact form">
+
+          <div class="form-row">
+            <div class="form-group">
+              <label for="contact-name">Full Name <span class="required">*</span></label>
+              <input type="text" id="contact-name" name="name" class="form-control"
+                     placeholder="Your full name" required autocomplete="name"/>
+            </div>
+            <div class="form-group">
+              <label for="contact-email">Email <span class="required">*</span></label>
+              <input type="email" id="contact-email" name="email" class="form-control"
+                     placeholder="your@email.com" required autocomplete="email"/>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="contact-subject">Subject</label>
+            <input type="text" id="contact-subject" name="subject" class="form-control"
+                   placeholder="What is your message about?"/>
+          </div>
+
+          <div class="form-group">
+            <label for="contact-message">Message <span class="required">*</span></label>
+            <textarea id="contact-message" name="message" class="form-control"
+                      placeholder="Write your message here…" rows="6" required></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-green" style="width:100%;justify-content:center;">
+            Send Message
+            <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true">
+              <line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/>
+            </svg>
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================================================================
+     FOOTER
+     ================================================================ -->
+<footer id="footer" role="contentinfo">
+  <div class="footer-main">
+    <div class="container">
+      <div class="footer-grid">
+        <!-- Brand -->
+        <div class="footer-brand">
+          <a href="#hero" class="logo" aria-label="NMC Liberia Home">
+            <img src="images/logo.svg" alt="NMC Liberia Logo" width="50" height="50" loading="lazy"/>
+            <span class="logo-text">
+              <span class="name" style="color:var(--white);">National Muslim Council</span>
+              <span class="tagline">of Liberia</span>
+            </span>
+          </a>
+          <p>
+            The official representative body of Islam in Liberia, serving the Muslim community
+            with faith, education, and compassion since 1971.
+          </p>
+          <div class="footer-social" aria-label="Social media links">
+            <a href="#" class="social-link" aria-label="Facebook">f</a>
+            <a href="#" class="social-link" aria-label="Twitter/X">𝕏</a>
+            <a href="#" class="social-link" aria-label="YouTube">▶</a>
+            <a href="#" class="social-link" aria-label="Instagram">◉</a>
+            <a href="#" class="social-link" aria-label="WhatsApp">💬</a>
+          </div>
+        </div>
+
+        <!-- Quick Links -->
+        <div class="footer-col">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="#about">About NMC</a></li>
+            <li><a href="#leadership">Leadership</a></li>
+            <li><a href="#news">News &amp; Updates</a></li>
+            <li><a href="#events">Events</a></li>
+            <li><a href="#prayer-times">Prayer Times</a></li>
+            <li><a href="#media">Media Center</a></li>
+            <li><a href="#resources">Resources</a></li>
+          </ul>
+        </div>
+
+        <!-- Services -->
+        <div class="footer-col">
+          <h4>Services</h4>
+          <ul>
+            <li><a href="#membership">Membership</a></li>
+            <li><a href="#donations">Donations</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+            <li><a href="#">Hajj Registration</a></li>
+            <li><a href="#">Islamic Rulings</a></li>
+            <li><a href="#">Volunteer</a></li>
+            <li><a href="#">Departments</a></li>
+          </ul>
+        </div>
+
+        <!-- Newsletter -->
+        <div class="footer-col">
+          <h4>Newsletter</h4>
+          <p style="font-size:0.88rem;color:rgba(255,255,255,0.6);margin-bottom:12px;">
+            Subscribe to receive updates, announcements, and Islamic reminders.
+          </p>
+          <form id="newsletter-form" novalidate aria-label="Newsletter signup">
+            <div class="newsletter-form">
+              <input type="email" class="newsletter-input" placeholder="Your email…"
+                     required aria-label="Email for newsletter"/>
+              <button type="submit" class="newsletter-btn" aria-label="Subscribe">→</button>
+            </div>
+          </form>
+          <p style="font-size:0.78rem;color:rgba(255,255,255,0.4);margin-top:10px;">
+            We respect your privacy. Unsubscribe anytime.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer Bottom: 3-column layout -->
+  <div class="footer-bottom">
+    <div class="container">
+      <p class="footer-copyright">
+        © 2026 National Muslim Council of Liberia. All rights reserved.
+      </p>
+      <p class="footer-credit">
+        Design By: <a href="https://lbpacademy.net/" target="_blank" rel="noopener noreferrer">Legacy Brain</a>
+      </p>
+      <p class="footer-policy">
+        <a href="#" id="policy-footer-link">Website Policy</a>
+      </p>
+    </div>
+  </div>
+</footer>
+
+<!-- ================================================================
+     BACK TO TOP
+     ================================================================ -->
+<button id="back-to-top" class="back-to-top" aria-label="Back to top">
+  <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true">
+    <path d="M12 19V5M5 12l7-7 7 7"/>
+  </svg>
+</button>
+
+<!-- ================================================================
+     TOAST CONTAINER
+     ================================================================ -->
+<div id="toast-container" class="toast-container" aria-live="polite" aria-atomic="true"></div>
+
+<!-- ================================================================
+     POLICY MODAL
+     ================================================================ -->
+<div id="policy-overlay" class="modal-overlay" role="dialog" aria-modal="true" aria-labelledby="policy-title">
+  <div class="modal">
+    <button id="modal-close" class="modal-close" aria-label="Close policy modal">✕</button>
+    <h2 id="policy-title">Website Policy</h2>
+    <p><strong>Privacy Policy</strong></p>
+    <p>
+      The National Muslim Council of Liberia (NMC Liberia) is committed to protecting your privacy.
+      Any personal information you provide through this website — including registration forms, contact
+      forms, or donations — is used solely for the purpose of providing you with NMC services and communications.
+    </p>
+    <p>
+      We do not sell, trade, or otherwise transfer your personal information to outside parties without
+      your consent, except where required by law or necessary to provide services (e.g., payment processors).
+    </p>
+    <p><strong>Data Collection</strong></p>
+    <p>
+      We collect information you voluntarily provide (name, email, phone, etc.) and standard web usage
+      data (e.g., page visits). This data is used to improve our services and communicate with our community.
+    </p>
+    <p><strong>Cookies</strong></p>
+    <p>
+      This website may use cookies to enhance your browsing experience. You can disable cookies through
+      your browser settings, though this may affect some website functionality.
+    </p>
+    <p><strong>Security</strong></p>
+    <p>
+      We implement appropriate security measures to protect your personal information. However, no method
+      of internet transmission is 100% secure.
+    </p>
+    <p><strong>Contact</strong></p>
+    <p>
+      For questions about this policy, contact us at <a href="mailto:info@nmcliberia.org" style="color:var(--green-dark);">info@nmcliberia.org</a>.
+    </p>
+    <p style="color:var(--text-muted);font-size:0.82rem;">Last updated: April 2026</p>
+  </div>
+</div>
+
+<!-- ================================================================
+     FUTURE-READY: Live Streaming Banner (hidden until active)
+     ================================================================ -->
+<div class="livestream-banner" id="livestream-banner" role="alert" aria-live="assertive">
+  🔴 <strong>LIVE NOW:</strong> Friday Khutbah from Central Mosque, Monrovia —
+  <a href="#" style="color:white;text-decoration:underline;">Watch Live</a>
+</div>
+
+<!-- Main JavaScript -->
+<script src="js/main.js"></script>
+
+<!-- Policy footer link alias -->
+<script>
+  (function() {
+    const fl = document.getElementById('policy-footer-link');
+    if (fl) {
+      fl.addEventListener('click', function(e) {
+        e.preventDefault();
+        const overlay = document.getElementById('policy-overlay');
+        if (overlay) {
+          overlay.classList.add('active');
+          document.body.style.overflow = 'hidden';
+        }
+      });
+    }
+  })();
+</script>
+
+</body>
+</html>
